@@ -1,0 +1,308 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #7c83fd;
+  top: 0;
+  z-index: 10;
+}
+
+.top-wrapper {
+  padding: 80px 0 300px 0;
+  background-size: cover;
+  background-color: #96baff;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.warna-atas {
+  color: white;
+  text-align: center;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  border-color: #7dedff;
+  background-color: #7dedff;
+  position: relative;
+  text-align: center;
+}
+
+.btn {
+  padding: auto;
+  color: #7c83fd;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  top: 45%;
+  width: 105%;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.lesson-icon a {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.lesson-icon img {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: center;
+}
+
+.txt-contents {
+  color: WHITE;
+  text-align: center;
+}
+
+/*CSS Main*/
+.main-foto {
+  width: 40%;
+  float: right;
+}
+
+.main-judul {
+  font-size: 48px;
+  font-weight: Bold;
+  text-align: left;
+  color: #7c83fd;
+}
+
+.main-isi {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2;
+  max-width: 45%;
+  text-align: left;
+  color: #7c83fd;
+}
+
+.main {
+  background-color: #7dedff;
+}
+
+a {
+  line-height: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+}
+
+.title {
+  color: #02ccba;
+}
+
+.team {
+  margin: 50px 25px 230px 25px;
+}
+
+.team h1 {
+  font-family: "Acme", sans-serif;
+}
+
+.body-team {
+  background-color: #96baff;
+}
+
+.body-team img {
+  width: 150px;
+  float: right;
+  margin-right: 50px;
+  position: relative;
+}
+
+.nama {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.motivate {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Fira Sans Condensed", sans-serif;
+  background-color: #88fff7;
+}
+
+/* CSS-Footer */
+
+.nama-logo {
+  font-size: 42px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.garis {
+  margin-top: 2px;
+  height: 5px;
+  background-color: #7dedff;
+}
+
+.footer {
+  background-color: #96baff;
+  color: #fff;
+  height: 80px;
+  padding: 0px 40px;
+}
+
+.footer-logo {
+  float: left;
+  display: inline-block;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-top: 7px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  float: right;
+  list-style: none;
+  font-size: 18px;
+}
+
+.kontak {
+  background-color: rgb(124, 131, 253);
+  display: block;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.mengenai {
+  background-color: rgb(124, 131, 253);
+  display: block;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.copyright {
+  background-color: rgb(124, 131, 253);
+  display: block;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.privacy {
+  background-color: rgb(124, 131, 253);
+  display: block;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.sitemap {
+  background-color: rgb(124, 131, 253);
+  display: block;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.kontak:hover {
+  opacity: 1;
+}
+
+.mengenai:hover {
+  opacity: 1;
+}
+
+.copyright:hover {
+  opacity: 1;
+}
+
+.privacy:hover {
+  opacity: 1;
+}
+
+.sitemap:hover {
+  opacity: 1;
+}

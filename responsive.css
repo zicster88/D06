@@ -1,0 +1,119 @@
+@media all and (max-width: 670px) {
+  .main-foto {
+    position: relative;
+    right: -40px;
+    left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .main-isi {
+    max-width: 70%;
+  }
+
+  .body-team {
+    clear: both;
+    position: relative;
+  }
+
+  .body-team img {
+    clear: both;
+    right: 85px;
+    left: -85px;
+    position: relative;
+  }
+
+  .main-body-text {
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .team,
+  .nama h1 {
+    clear: both;
+    position: relative;
+    top: 50px;
+  }
+
+  .nama {
+    width: 100%;
+  }
+
+  .footer-logo {
+    position: relative;
+    left: 25%;
+    margin-left: -50%;
+  }
+
+  .nama-logo {
+    position: relative;
+    left: 75%;
+    margin-left: -50%;
+  }
+
+  .footer-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .main-foto {
+    position: relative;
+    top: 130px;
+    left: 50px;
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .main-foto {
+    position: relative;
+    right: -80px;
+  }
+
+  .main-isi {
+    width: 70%;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+  .main-footer-logo {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;
+  }
+
+  .footer-list {
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    clear: right;
+    display: block;
+    margin: auto;
+  }
+
+  .footer-list-link {
+  }
+}
