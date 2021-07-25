@@ -4,50 +4,32 @@
 
 body {
   margin: 0;
-  font-family: "Lato";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
 }
 
 .container {
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 10px;
 }
 
 header {
+  background-color: #7c83fd;
   height: 65px;
   width: 100%;
-  background-color: #7c83fd;
-  top: 0;
-  z-index: 10;
-}
-
-.top-wrapper {
-  padding: 80px 0 300px 0;
-  background-size: cover;
-  background-color: #96baff;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
 }
 
 .header-left {
   float: left;
 }
 
+.logo {
+  width: 124px;
+  margin-top: 15px;
+}
+
 .header-right {
   float: right;
-  margin-right: -25px;
 }
 
 .header-right a {
@@ -75,7 +57,13 @@ header {
   display: none;
 }
 
-.warna-atas {
+.top-wrapper {
+  background-color: #96baff;
+  background-size: cover;
+  padding: 80px 0 300px 0;
+}
+
+.top-wrapper h1 {
   color: white;
   text-align: center;
 }
@@ -83,8 +71,6 @@ header {
 .square {
   height: 150px;
   width: 150px;
-  border-style: solid;
-  border-color: #7dedff;
   background-color: #7dedff;
   position: relative;
   text-align: center;
@@ -95,62 +81,65 @@ header {
   color: #7c83fd;
   display: inline-block;
   opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
+  border-radius: 10px;
 }
 
-.lesson {
+.profil {
   float: left;
   width: 20%;
 }
 
-.lesson-icon {
+.profil-icon {
   position: relative;
+  margin: 0 15px;
 }
 
-.lesson-icon p {
+.top-wrapper p {
   top: 45%;
-  width: 105%;
   color: white;
-  display: inline-block;
   margin-top: 20px;
+  position: absolute;
+  float: left;
+  width: 20%;
+  text-align: center;
 }
 
-.lesson-icon a {
-  position: absolute;
+.profil-icon a {
   top: 90px;
   width: 100%;
   color: white;
 }
 
-.lesson-icon img {
+.profil-icon img {
   width: 50px;
   height: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: block;
   float: center;
+  margin: 40px auto 20px auto;
 }
 
-.txt-contents {
-  color: WHITE;
-  text-align: center;
+.main-wrapper {
+  background-color: #7dedff;
+  height: 400px;
 }
 
-/*CSS Main*/
-.main-foto {
-  width: 40%;
+.main-wrapper img {
+  margin-top: 25px;
+  width: 35%;
   float: right;
 }
 
-.main-judul {
+.main-wrapper h1 {
   font-size: 48px;
   font-weight: Bold;
   text-align: left;
   color: #7c83fd;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
-.main-isi {
+.main-wrapper h2 {
   font-size: 16px;
   font-weight: normal;
   line-height: 2;
@@ -159,34 +148,22 @@ header {
   color: #7c83fd;
 }
 
-.main {
-  background-color: #7dedff;
+.team h1 {
+  font-family: "Acme", sans-serif;
+  margin-top: 0;
+  padding-top: 80px;
 }
 
-a {
-  line-height: 35px;
-  padding-left: 25px;
-  padding-right: 25px;
-  color: #fff;
-}
-
-.title {
-  color: #02ccba;
+.main-team {
+  background-color: #96baff;
+  height: 2500px;
 }
 
 .team {
-  margin: 50px 25px 230px 25px;
+  margin-bottom: 150px;
 }
 
-.team h1 {
-  font-family: "Acme", sans-serif;
-}
-
-.body-team {
-  background-color: #96baff;
-}
-
-.body-team img {
+.team img {
   width: 150px;
   float: right;
   margin-right: 50px;
@@ -205,9 +182,9 @@ a {
   font-weight: bold;
   font-family: "Fira Sans Condensed", sans-serif;
   background-color: #88fff7;
+  text-align: left;
+  border-radius: 4px;
 }
-
-/* CSS-Footer */
 
 .nama-logo {
   font-size: 42px;
@@ -222,16 +199,17 @@ a {
   background-color: #7dedff;
 }
 
-.footer {
-  background-color: #96baff;
+footer {
+  background-color: #7c83fd;
   color: #fff;
   height: 80px;
   padding: 0px 40px;
 }
 
-.footer-logo {
+footer img {
   float: left;
   display: inline-block;
+  height: 80px;
 }
 
 .footer-list {
@@ -247,62 +225,22 @@ a {
   font-size: 18px;
 }
 
-.kontak {
-  background-color: rgb(124, 131, 253);
+.footer-list a {
   display: block;
   color: white;
   opacity: 0.8;
   border-radius: 4px;
+  float: left;
+  transition: all 0.5s;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin: 0;
 }
 
-.mengenai {
-  background-color: rgb(124, 131, 253);
-  display: block;
-  color: white;
-  opacity: 0.8;
-  border-radius: 4px;
+.footer-list li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.copyright {
-  background-color: rgb(124, 131, 253);
-  display: block;
-  color: white;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.privacy {
-  background-color: rgb(124, 131, 253);
-  display: block;
-  color: white;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.sitemap {
-  background-color: rgb(124, 131, 253);
-  display: block;
-  color: white;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.kontak:hover {
-  opacity: 1;
-}
-
-.mengenai:hover {
-  opacity: 1;
-}
-
-.copyright:hover {
-  opacity: 1;
-}
-
-.privacy:hover {
-  opacity: 1;
-}
-
-.sitemap:hover {
-  opacity: 1;
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
